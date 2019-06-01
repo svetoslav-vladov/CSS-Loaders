@@ -47,3 +47,25 @@ body {
 .btn:hover {
     opacity: 0.9;
 }
+
+.back-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.back-bar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    background-color: #c3cfe2;
+    padding: 10px 0;
+}
+
+.back-bar a:hover {
+    background-color: #bcc6d6;
+}
